@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 1;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+html {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+:root {
+    --dark-color: #1c1c1c;
+    --light-color: #ffdd01;
+}
+
+body {
+    background: var(--dark-color);
+    color: var(--light-color);
+    font-family: sans-serif;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+}
+
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+table {
+	border-collapse: collapse;
+	width: 500px;
+}
+th {
+	background-color: #54585d;
+	border: 1px solid #54585d;
+}
+th:hover {
+	background-color: #64686e;
+}
+th a {
+	display: block;
+	text-decoration:none;
+	padding: 10px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+}
+th a i{
+	margin-left: 5px;
+	color: rgba(255,255,255,0.4);
+}
+td {
+	padding: 10px;
+	color: #636363;
+	border: 1px solid #dddfe1;
+}
+tr {
+	background-color: #ffffff;
+}
+tr .highlight {
+	background-color: #f9fafb;
+}
+
